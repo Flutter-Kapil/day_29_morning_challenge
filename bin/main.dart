@@ -18,7 +18,7 @@ String simplify(String fraction) {
 
 List factors(int n) {
   List factorsList = [];
-  for (int i = 1; i < n; i++) {
+  for (int i = 1; i <= n; i++) {
     n % i == 0 ? factorsList.add(i) : null;
   }
   return factorsList;
